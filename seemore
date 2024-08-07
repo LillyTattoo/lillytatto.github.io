@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script:wght@400..700&family=Grey+Qo&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PCCBJ64P8R"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-PCCBJ64P8R');
+</script>
+</head>
+<header>
+    <div class="header" >
+        <a href="prenota.html">
+            <button type="button" class="lilly4">Prenota Ora</button>
+        </a>
+        <a href="index.html">
+            <button id="close"><img src="Screenshot_20221202_173343.jpg" style="height:120px; width: 90px;"></button>
+        </a>
+        <span>
+            <h1 class="ciao">Lilli Tattoo</h1>
+        </span>
+        <div id="sposta">
+            <details>
+                <summary></summary>
+                <nav class="menu">
+                  <a href="index.html">Home</a>
+                  <a href="seemore.html">Galleria</a>
+                  <a href="prenota.html ">Prenota</a>
+                  <a href="contact.html">Contact</a>
+                  <a href="about.html">About</a>
+                </nav>
+            </details>
+        </div>
+    </div>
+</header>
+<body>
+    <div id="galleria">
+        <h1 id="textGalleria">Galleria</h1>
+        <div id="tattoophotos">
+            <img src="tattoo.jpg" class="tattooPhotos">
+            <img src="tattoo1.jpg" class="tattooPhotos">
+            <img src="tattoo2.jpg" class="tattooPhotos">
+            <img src="tattoo4.jpg" class="tattooPhotos">
+            <img src="tattoo5.jpg" class="tattooPhotos">
+            <img src="tattoo6.jpg" class="tattooPhotos">
+            <img src="tattoo7.jpg" class="tattooPhotos">
+            <img src="tattoo8.jpg" class="tattooPhotos">
+            <img src="tattoo9.jpg" class="tattooPhotos">
+            <img src="tattoo11.jpg" class="tattooPhotos">
+            <img src="tattoo12.jpg" class="tattooPhotos">
+            <img src="tattoo13.jpg" class="tattooPhotos">
+            <img src="tattoo14.jpg" class="tattooPhotos">
+            <img src="tattoo15.jpg" class="tattooPhotos">
+            <img src="tattoo16.jpg" class="tattooPhotos">
+            <img src="tattoo17.jpg" class="tattooPhotos">
+            <img src="tattoo18.jpg" class="tattooPhotos">
+            <img src="tattoo19.jpg" class="tattooPhotos">
+            <img src="tattoo20.jpg" class="tattooPhotos">
+            <img src="tattoo21.jpg" class="tattooPhotos">
+            <img src="tattoo22.jpg" class="tattooPhotos">
+            <img src="tattoo23.jpg" class="tattooPhotos">
+            <img src="tattoo24.jpg" class="tattooPhotos">
+            <img src="tattoo25.jpg" class="tattooPhotos">
+            <img src="tattoo26.jpg" class="tattooPhotos">
+            <img src="tattoo27.jpg" class="tattooPhotos">
+            <img src="tattoo28.jpg" class="tattooPhotos">
+            <img src="tattoo29.jpg" class="tattooPhotos">
+            <img src="tattoo30.jpg" class="tattooPhotos">
+            <img src="tattoo31.jpg" class="tattooPhotos">
+            <img src="tattoo32.jpg" class="tattooPhotos">
+            <img src="tattoo33.jpg" class="tattooPhotos">
+            <img src="tattoo34.jpg" class="tattooPhotos">
+            <img src="tattoo35.jpg" class="tattooPhotos">
+            <img src="tattoo37.jpg" class="tattooPhotos">
+            <img src="tattoo38.jpg" class="tattooPhotos">
+            <img src="tattoo39.jpg" class="tattooPhotos">
+            <img src="tattoo40.jpg" class="tattooPhotos">
+            <img src="tattoo41.jpg" class="tattooPhotos">
+            <img src="tattoo42.jpg" class="tattooPhotos">
+            <img src="tattoo43.jpg" class="tattooPhotos">
+            <img src="tattoo44.jpg" class="tattooPhotos">
+            <img src="tattoo45.jpg" class="tattooPhotos">
+            <img src="tattoo46.jpg" class="tattooPhotos">
+            <img src="tattoo47.jpg" class="tattooPhotos">
+            <img src="tattoo48.jpg" class="tattooPhotos">
+        </div>
+    </div>
+</body>
+</html>
