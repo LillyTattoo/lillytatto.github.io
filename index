@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script:wght@400..700&family=Grey+Qo&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PCCBJ64P8R"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-PCCBJ64P8R');
+</script>
+</head>
+<header>
+    <div class="header" >
+        <a href="prenota.html">
+            <button type="button" class="lilly4">Prenota Ora</button>
+        </a>
+        <a href="index.html">
+            <button id="close"><img src="Screenshot_20221202_173343.jpg" style="height:120px; width: 90px;"></button>
+        </a>
+        <span>
+            <h1 class="ciao">Lilli Tattoo</h1>
+        </span>
+        <div id="sposta">
+            <details>
+                <summary></summary>
+                <nav class="menu">
+                  <a href="index.html">Home</a>
+                  <a href="seemore.html">Galleria</a>
+                  <a href="prenota.html ">Prenota</a>
+                  <a href="contact.html">Contact</a>
+                  <a href="about.html">About</a>
+                </nav>
+            </details>
+        </div>
+    </div>
+</header>
+<body id="body">
+    <div class="header2">
+        <img src="lilli sfondo.jpg" style="height: 455px;" id="foto">
+        <div id="presentazione">
+            <p>Mi chiamo Liliana,
+                e sin da quando ero bambina l'arte è stata una componente fondamentale della mia vita.
+                Ho iniziato il mio percorso artistico sin da giovane, sperimentando diverse forme d'arte, dal
+                disegno alla pittura, fino ad approdare al mondo del tatuaggio.
+                Iniziando per caso, come autodidatta e dopo aver fatto diversi corsi di specializzazione
+                (tatuaggio realistico b/n, realistico con il grigio colore, tatuaggio colorato, tatuaggio
+                oncologico) ho deciso di trasformare la mia passione in una professione.
+                Durante la mia esperienza professionale ho avuto l'opportunita di aprire il mio studio in
+                provincia di Reggio Emilia (italia), LilliTattoo Studio, che in pochissimo tempo ha raggiunto
+                un enorme successo, sia per la preparazione dei tatuatori all'interno che per l'accoglienza.
+                Sono specializzata in stile realistico, fine line, trash polka e geometrico, ma sono sempre
+                pronta a nuove sfide e a soddisfare le richieste dei clienti, interpretando e realizzando al
+                meglio le loro idee.
+                Sono estremamente attenta ai dettagli e pongo la massima cura nel garantire un'igiene
+                impeccabile e un ambiente sicuro per i miei clienti.
+                Ritengo che la comunicazione sia un elemento chiave del mio lavoro: mi piace ascoltare le
+                storie e le motivazioni dei clienti, lavorando insieme a loro per creare disegni unici che
+                rispecchino la loro personalita e i loro desideri.</p>
+        </div>
+    </div>
+    <div class="lilli123">
+        <h1 id="ciaoBello">Preview</h1>
+        <a href="seemore.html">
+            <button type="button" id="seemore">vedi di più</button>
+        </a>
+        <div class="tattoophoto">
+            <img draggable="false" src="tattoo.jpg" class="tattooPhoto">
+            <img draggable="false" src="tattoo1.jpg" class="tattooPhoto">
+            <img draggable="false" src="tattoo2.jpg" class="tattooPhoto">
+        </div>
+    </div>
