@@ -1,0 +1,509 @@
+.header{
+    background-color: black;
+}
+#lilly1{
+    color: aliceblue;
+}
+.lilly2{
+    color: aliceblue;
+    margin-left: 80%;
+    transform: translate(-150px, -90px);
+}
+a:visited{
+    color: cornsilk;
+}
+body{
+    overflow-x: hidden;
+}
+.images{
+    display: flex;
+    position: fixed;
+    margin-top: 15px;
+    flex-flow: wrap row;
+    align-content: flex-start;
+    gap: 100px;
+    
+}
+.box{
+    width: 675px;
+    height: 150px;
+    box-shadow: 5px 10px #888888;
+}
+.ciao{
+    position: absolute;
+    margin-top: -95px;
+    margin-left: 115px;
+    color: white;
+    font-family: "Harry P" , sans-serif;
+    font-size: 75px;
+}
+
+@font-face {
+    font-family: "Harry P";
+    src: url(http://www.princexml.com/fonts/larabie/kimberle.ttf) format("truetype");
+}
+
+#lilly3{
+    position: absolute;
+    width: 130px;
+    height: 50px;
+    background-color: white;
+    transform: translate(1200px, -110px);
+    border-radius: 15px;
+}
+
+#lilly3:hover{
+    color: black;
+    transition: 0.3;
+}
+
+#lilliPrenota{
+    position: fixed;
+    color: black;
+    font-size: medium;
+    margin: 15px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    font-family: "Harry P" , sans-serif;
+    font-size: 20px;
+}
+
+#lilliPrenota:hover{
+    color: white;
+    transition: 0.3s;
+}
+
+.lilly4{
+    position: absolute;
+    border: 0px;
+    border-radius: 12px;
+    padding-left: 56px;
+    padding-right: 56px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 1215px;
+    margin-top: 25px;
+    font-family: "Harry P" , sans-serif;
+    font-size: 25px;
+    z-index: 999;
+}
+
+.lilly4:hover{
+    color: white;
+    background-color: black;
+    transition: 0.3s;
+}
+
+.lilly4:not(:hover){
+    color: black;
+    background-color: white;
+    transition: 0.3s;
+}
+
+#close{
+    margin: 0px;
+    border: 0px solid black;
+    padding: 0px;
+    background-color: black;
+}
+
+.header2{
+    position: absolute;
+    background-color: #FF9999;
+    height: 452px;
+}
+
+#presentazione{
+    width: 50%;
+    transform: translateX(350px) translateY(-450px);
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+
+
+.lilli123{
+    background-image: url(sfondoprese.jpg);
+    transform: translateY(380px);
+    background-color: #888888;
+    height: 500px;
+    width: 100%;
+}
+
+#ciaoBello{
+    transform: translateX(50px) translateY(px);
+    font-family: "Grey Qo", cursive;
+    font-weight: 400;
+    font-size: 100px;
+    font-style: normal;
+}
+
+#caso123{
+    text-align: left;
+}
+
+#I{
+    font-size: 1200px;
+    color: black;
+    transform: rotate(90deg);
+    margin: 150px;
+}
+
+#foto{
+    transform: translateY(-1.5px);
+}
+
+#header3{
+    transform: translateY(-450px);
+}
+
+@keyframes gapFunc{
+    from{gap: 0px; transform: translateX(75%) translateY(30px);}
+    to{gap: 250px;}
+}
+
+@keyframes posFunc{
+    from{transform: translateX(-50px); gap: 0px;}
+    to{transform: translateX(0px); gap: 250px;}
+}
+
+.tattoophoto{
+    display: flex;
+    justify-content: center;
+    animation-name: gapFunc;
+    animation-duration: 2s;
+    gap: 150px;
+    transform: translateX(-90px) translateY(-50px);
+    height: 200px;
+    animation: gapFunc linear both;
+    animation-timeline: view();
+    animation-range: contain;
+}
+
+.tattooPhoto{
+    border-color: white;
+    border-radius: 12px;
+    animation-name: posFunc;
+    animation-duration: 2s;
+    animation: posFunc ease slidein;
+    animation-timeline: view();
+    animation-range: contain;
+}
+
+#seemore{
+    color: white;
+    background-color: black;
+    margin-left: 1390px;
+    transform: translateY(-130px);
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-family: "Random";
+}
+
+@font-face {
+    font-family: "Random";
+    src: url(Fonts/FRABK.TTF);
+}
+
+#seemore:hover{
+    color: black;
+    background-color: white;
+    transition: 0.3s;
+}
+
+#seemore:not(:hover){
+    color: white;
+    background-color: black;
+    transition: 0.3s;
+}
+
+#body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    @supports (animation-timeline: scroll()) {
+      .tattooPhoto {
+        animation: posFunc linear both;
+        animation-timeline: scroll();
+        animation-range: 150px 250px;
+      }
+    }
+}
+
+.tattooPhoto:hover{
+    scale: 150%;
+    transition: 1s;
+}
+
+.tattooPhoto:not(:hover){
+    scale: 100%;
+    transition: 1s;
+}
+
+.tattooPhoto:active{
+    scale: 250%;
+    transition: all ease-in-out 1s;
+}
+
+
+
+
+
+
+
+
+
+:root {
+    --primColor: black;
+    --secoColor: white;
+    --cornerRad: 4px;
+  }
+  .body {
+    background-color: var(--primColor);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  }
+  summary {
+    writing-mode: vertical-lr;
+    text-align: center;
+    padding: 12px 10px;
+    width: 23px;
+    height: 17px;
+    background-color: var(--primColor);
+    border: 2px solid var(--secoColor);
+    border-radius: var(--cornerRad);
+    color: var(--secoColor);
+    cursor: pointer;
+    user-select: none;
+    outline: none;
+    transition: transform 1s ease-in-out, top 1s ease-in-out;
+  }
+  summary::before,
+  summary::after {
+    position: static;
+    top: 0;
+    left: 0;
+  }
+  summary::before {
+    content: "";
+  }
+  summary::after {
+    content: "III";
+    letter-spacing: -1px;
+  }
+  summary:hover {
+    transform: scale(1.1);
+  }
+  summary::marker {
+    font-size: 0;
+  }
+  summary::-webkit-details-marker {
+    display: none;
+  }
+  details[open] .menu {
+    animation-name: menuAnim;
+  }
+  details[close] .menu {
+    animation-name: closeMenu;
+  }
+  details[open] summary::before {
+    content: "X";
+  }
+  details[open] summary::after {
+    content: "";
+  }
+  .menu {
+    height: 0;
+    width: fit-content;
+    border-radius: var(--cornerRad);
+    background-color: var(--primColor);
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2);
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    animation: closeMenu 300ms ease-in-out forwards;
+  }
+  .menu a {
+    padding: 12px 24px;
+    margin: 0 16px;
+    color: var(--secoColor);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    text-align: center;
+    transition: filter 200ms linear 0s;
+  }
+  .menu a:nth-of-type(1) {
+    padding-top: 24px;
+  }
+  .menu a:nth-last-of-type(1) {
+    border-bottom: none;
+  }
+  .menu a:hover {
+    filter: brightness(200%);
+  }
+  details::before {
+    content: "← Viaggio Rapido";
+    color: var(--secoColor);
+    position: absolute;
+    margin-left: 80px;
+    padding: 10px 10px;
+    opacity: 0.4;
+  }
+  details[open]::before {
+    animation: fadeMe 300ms linear forwards;
+  }
+  summary:active{
+    animation: menuAnim 300ms ease-in-out linear;
+  }
+  @keyframes menuAnim {
+    0% {
+      height: 0;
+    }
+    100% {
+      height: 312px;
+    }
+  }
+
+@keyframes closeMenu {
+    0%{
+        height: 312px;
+    }
+    100%{
+        height: 0;
+    }
+}
+  
+  @keyframes fadeMe {
+    0% {
+      opacity: 0.4;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+#sposta{
+    transform: translateX(450px) translateY(-90px);
+}
+
+#galleria{
+    transform: translateY(-101px);
+    background-image: url(sfondoprese.jpg);
+    height: 15000px;
+}
+
+.photoGalleria{
+    display: flex;
+    align-content: center;
+    height: 150px;
+    width: 150px;
+}
+
+.tattooPhotos{
+    transform: translateX(25px) translateY(10px);
+    height: 500px;
+    width: 400px;
+    border-color: white;
+    border-radius: 12px;
+}
+
+#tattoophotos{
+    width: 1500px;
+    display:flex;
+    justify-content: center;
+    column-gap: 250px;
+    row-gap: 50px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.tattooPhotos:hover{
+    scale: 110%;
+    transition: all ease-in-out 1s;
+}
+
+.tattooPhotos:not(:hover){
+    scale: 100%;
+    transition: all ease-in-out 1s;
+}
+
+#textGalleria{
+    font-family: "Grey Qo", cursive;
+    font-weight: 400;
+    font-size: 150px;
+    font-style: normal;
+}
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  #rase{
+    height: 500px;
+    background-color: #FF9999;
+  }
+
+ .linksss{
+    font-size: large;
+    color: black;
+  }
+
+  .linksss:visited{
+    color: black;
+  }
+
+  #insta::after,#insta::before{
+    content: url("download\ \(1\).jpg");
+  }
+
+  #Whatsapp::after, #Whatsapp::before{
+    content: url(png-clipart-whatsapp-logo-whatsapp-computer-icons-facebook-icono-whatsapp-red-social-de-flat-gradient-social-icons-miscellaneous-text-thumbnail.jpg);
+  }
+
+  #Facebook::after,#Facebook::before{
+    content: url(download\ \(2\).jpg);
+  }
+
+  #maps{
+    transform: translateX(800px) translateY(-475px);
+    scale: 100%;
+  }
