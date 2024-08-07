@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PCCBJ64P8R"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-PCCBJ64P8R');
+</script>
+</head>
+<header>
+    <div class="header" >
+        <a href="prenota.html">
+            <button type="button" class="lilly4">Prenota Ora</button>
+        </a>
+        <a href="index.html">
+            <button id="close"><img src="Screenshot_20221202_173343.jpg" style="height:120px; width: 90px;"></button>
+        </a>
+        <span>
+            <h1 class="ciao">Lilli Tattoo</h1>
+        </span>
+        <div id="sposta">
+            <details>
+                <summary></summary>
+                <nav class="menu">
+                  <a href="index.html">Home</a>
+                  <a href="seemore.html">Galleria</a>
+                  <a href="prenota.html ">Prenota</a>
+                  <a href="contact.html">Contact</a>
+                  <a href="about.html">About</a>
+                </nav>
+            </details>
+        </div>
+    </div>
+</header>
+<body>
+    <div id="rase">
+        <a href="https://wa.me/+41793136829" class="linksss" id="Whatsapp" target="_blank">Contatto Whatsapp</a> <br>
+        <a href="https://www.instagram.com/lilli.tattoo.studio?igsh=amI1N3ZpeXBnbzBn" class="linksss" id="insta" target="_blank">Contatto Instagram</a><br>
+        <a href="https://www.facebook.com/LilliTattoo" class="linksss" id="Facebook" target="_blank">Contatto Facebook</a>
+    </div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2762.7244763824874!2d8.885317618128996!3d46.176140114772785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4784339efa509487%3A0xed573f7d0f09dbc!2sKarisma%20Centro%20Estetico%20e%20Parrucchiere%20Uomo%20e%20Donna%20Riazzino%20e%20Locarno!5e0!3m2!1sit!2sch!4v1722789188838!5m2!1sit!2sch" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="maps"></iframe>
+</body>
+</html>
